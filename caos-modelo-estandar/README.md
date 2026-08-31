@@ -1,55 +1,47 @@
 # ¿Cómo encontrar caos partiendo desde el Modelo Estándar?
 
-Repositorio de la presentación académica **¿Cómo encontrar caos partiendo desde
-el Modelo Estándar?**, preparada en LaTeX Beamer por José Ignacio Rosas
-Sepúlveda para el curso Sistemas Dinámicos e Introducción al Caos, en agosto de
-2026.
+Presentación preparada para el curso **Sistemas Dinámicos e Introducción al Caos**
+de la Universidad de Concepción y presentada posteriormente en el
+**Workshop de Ciencias Físicas UdeC 2026-2**.
 
-La presentación recorre el paso desde una teoría clásica de campos hasta un
-sistema hamiltoniano no lineal de pocos grados de libertad. El análisis utiliza
-secciones de Poincaré para estudiar la aparición de dinámica regular, mixta y
-caótica en reducciones relacionadas con teorías gauge y el sector Higgs.
+## Resumen
 
-## Contenido del repositorio
-
-- `Como_encontrar_caos_partiendo_desde_el_Modelo_Estandar.tex`: fuente editable
-  de la presentación.
-- `Como_encontrar_caos_partiendo_desde_el_Modelo_Estandar.pdf`: versión
-  compilada.
-- `images/`: fotografías, logotipo y recursos visuales generales.
-- `images/figures/`: figuras de dinámica no lineal y secciones de Poincaré.
-- `images/papers/`: recortes de los artículos citados en la presentación.
-- `scripts/`: programas utilizados para generar o reproducir las figuras
-  numéricas.
-- `data/`: series numéricas del doble péndulo exportadas como CSV.
-- `FIGURE_PROVENANCE.md`: procedencia de cada figura y parámetros de
-  reproducción.
-- `requirements.txt`: dependencias de Python utilizadas por los programas.
-
-El repositorio contiene únicamente la versión final y los recursos que ésta
-necesita para compilar. No incluye versiones antiguas ni archivos auxiliares de
-LaTeX.
-
-## Compilación
-
-El documento puede compilarse con una distribución moderna de LaTeX que incluya
-Beamer, TikZ, SVG y los paquetes matemáticos habituales:
-
-```bash
-pdflatex Como_encontrar_caos_partiendo_desde_el_Modelo_Estandar.tex
-pdflatex Como_encontrar_caos_partiendo_desde_el_Modelo_Estandar.tex
-```
-
-## Autor
-
-José Ignacio Rosas Sepúlveda  
-Universidad de Concepción
-
-Las referencias científicas y atribuciones de las imágenes se indican en las
-diapositivas correspondientes y en la sección final de referencias.
+Se estudia cómo una reducción clásica del sector gauge--Higgs puede conducir a
+un sistema hamiltoniano no lineal de pocos grados de libertad, cuya dinámica
+regular, mixta y caótica se analiza mediante secciones de Poincaré.
 
 ## Reproducción numérica
 
-Las figuras numéricas no se publican como resultados aislados: se incluyen sus
-programas, condiciones iniciales y dependencias. Consulta
-`FIGURE_PROVENANCE.md` antes de reutilizarlas o interpretar sus resultados.
+Las principales figuras numéricas fueron generadas con scripts desarrollados con
+asistencia de **ChatGPT 5.6 Sol Work**. Se utilizaron con
+fines ilustrativos y no han sido sometidas a una validación numérica exhaustiva.
+
+En las secciones de Poincaré, la detección de cruces puede depender del paso de
+integración y del criterio de interpolación, por lo que los resultados deben
+interpretarse principalmente de manera cualitativa.
+
+## Referencias principales
+
+- S. Navas *et al.* (Particle Data Group), *Review of Particle Physics*,
+  **Physical Review D 110**, 030001 (2024).
+
+- M. J. Gotay, *Reduction of homogeneous Yang--Mills fields*,
+  **Journal of Geometry and Physics 6**, 349--365 (1989).
+
+- T. Kawabe y S. Ohta, *Order-to-chaos transition in SU(2)
+  Yang--Mills--Higgs theory*, **Physical Review D 44**, 1274 (1991).
+
+- L. Salasnich, *Chaos suppression in the SU(2) Yang--Mills--Higgs system*,
+  **Physical Review D 52**, 6189 (1995).
+
+- R. Fariello, H. Forkel y G. Krein, *Regular and chaotic interactions of
+  two BPS dyons at low energy*, **Physical Review D 72**, 105015 (2005).
+
+- F. Canfora, N. Grandi, M. Oyarzo y J. Oliva, *Exact oscillations and chaos
+  on a non-Abelian coil*, **Nuclear Physics B 1004**, 116553 (2024).
+
+## Autor
+
+**José Ignacio Rosas Sepúlveda**  
+Licenciatura en Ciencias Físicas  
+Universidad de Concepción
